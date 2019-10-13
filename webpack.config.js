@@ -26,6 +26,6 @@ module.exports = {
     devServer:{
         contentBase:path.join(__dirname, `public`)
     },
-    
+    mode:'production',
     watch: true
 }
